@@ -10,6 +10,7 @@ from pathlib import Path
 DATA_IMAGE = re.compile(
     r"data:image/(?P<mime>[a-zA-Z0-9.+-]+);base64,(?P<payload>[a-zA-Z0-9+/=]+)"
 )
+LOCAL_SCREENSHOT = re.compile(r'(?P<prefix>"src":")(?P<path>screenshots/[^"?]+)(?P<suffix>")')
 
 EXTENSIONS = {
     "jpeg": "jpg",
@@ -25,6 +26,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument(
+        "--asset-root",
+        type=Path,
+        help="Root containing screenshot paths referenced by the source HTML.",
+    )
     args = parser.parse_args()
 
     text = args.source.read_text(encoding="utf-8")
@@ -47,8 +53,28 @@ def main() -> None:
         return relative
 
     rendered, replacements = DATA_IMAGE.subn(replace, text)
+
+    local_replacements = 0
+    if args.asset_root:
+        def replace_local(match: re.Match[str]) -> str:
+            nonlocal local_replacements
+            source = args.asset_root / match.group("path")
+            payload = source.read_bytes()
+            digest = hashlib.sha256(payload).hexdigest()
+            extension = source.suffix.removeprefix(".").lower()
+            relative = f"assets/{digest[:2]}/{digest}.{extension}"
+            target = args.output / relative
+            if not target.exists():
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(payload)
+            local_replacements += 1
+            return f'{match.group("prefix")}{relative}{match.group("suffix")}'
+
+        rendered = LOCAL_SCREENSHOT.sub(replace_local, rendered)
+
     (args.output / "index.html").write_text(rendered, encoding="utf-8")
     print(f"externalized={replacements}")
+    print(f"local_screenshots={local_replacements}")
     print(f"unique_assets={len(written)}")
 
 

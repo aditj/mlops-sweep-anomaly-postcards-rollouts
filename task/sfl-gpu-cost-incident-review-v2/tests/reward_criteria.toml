@@ -1,0 +1,901 @@
+[judge]
+mode = "batched"
+judge = "codex"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+isolated = false
+timeout = 8400
+prompt_template = "judge_prompt.md"
+atif-trajectory = "/logs/agent/trajectory.json"
+
+[scoring]
+aggregation = "weighted_mean"
+
+[[criterion]]
+name = "hf_title_cardamom_typology_0420_106"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/cardamom-typology whose title is exactly '[July GPU review] cardamom-typology — run_252668ba2e05fc954f93c7e0'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_cardamom_typology_0420_106"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cardamom-typology, identifiable by the exact run id run_252668ba2e05fc954f93c7e0 appearing in its title or initial description, whose initial description contains the exact run id run_252668ba2e05fc954f93c7e0.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_cardamom_typology_0420_106"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cardamom-typology, identifiable by the exact run id run_252668ba2e05fc954f93c7e0 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 43892.63; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_cardamom_typology_0420_106"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cardamom-typology, identifiable by the exact run id run_252668ba2e05fc954f93c7e0 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_cardamom_typology_0420_106"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cardamom-typology, identifiable by the exact run id run_252668ba2e05fc954f93c7e0 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_lotus_identity_0310_841"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/lotus-identity whose title is exactly '[July GPU review] lotus-identity — run_c7d6682943b0144a6e4a0854'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_lotus_identity_0310_841"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_c7d6682943b0144a6e4a0854 appearing in its title or initial description, whose initial description contains the exact run id run_c7d6682943b0144a6e4a0854.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_lotus_identity_0310_841"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_c7d6682943b0144a6e4a0854 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 20921.77; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_lotus_identity_0310_841"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_c7d6682943b0144a6e4a0854 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_lotus_identity_0310_841"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_c7d6682943b0144a6e4a0854 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_clove_policy_0601_540"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/clove-policy whose title is exactly '[July GPU review] clove-policy — run_72576a1231c87eb61f44fe26'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_clove_policy_0601_540"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_72576a1231c87eb61f44fe26 appearing in its title or initial description, whose initial description contains the exact run id run_72576a1231c87eb61f44fe26.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_clove_policy_0601_540"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_72576a1231c87eb61f44fe26 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 19300.24; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_clove_policy_0601_540"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_72576a1231c87eb61f44fe26 appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_clove_policy_0601_540"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_72576a1231c87eb61f44fe26 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_pepper_drift_0212_250"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/pepper-drift whose title is exactly '[July GPU review] pepper-drift — run_bb9e3efbfff08c7f3076c4d9'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_pepper_drift_0212_250"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_bb9e3efbfff08c7f3076c4d9 appearing in its title or initial description, whose initial description contains the exact run id run_bb9e3efbfff08c7f3076c4d9.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_pepper_drift_0212_250"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_bb9e3efbfff08c7f3076c4d9 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 15809.70; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_pepper_drift_0212_250"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_bb9e3efbfff08c7f3076c4d9 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_pepper_drift_0212_250"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_bb9e3efbfff08c7f3076c4d9 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_lotus_identity_0724_713"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/lotus-identity whose title is exactly '[July GPU review] lotus-identity — run_7f485c1b64031fc0dbc054bf'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_lotus_identity_0724_713"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_7f485c1b64031fc0dbc054bf appearing in its title or initial description, whose initial description contains the exact run id run_7f485c1b64031fc0dbc054bf.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_lotus_identity_0724_713"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_7f485c1b64031fc0dbc054bf appearing in its title or initial description, whose initial description contains the exact two-decimal cost 13038.07; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_lotus_identity_0724_713"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_7f485c1b64031fc0dbc054bf appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_lotus_identity_0724_713"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_7f485c1b64031fc0dbc054bf appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_saffron_decision_0205_376"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision whose title is exactly '[July GPU review] saffron-decision — run_0ad16ddd997a8e8061c662e6'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_saffron_decision_0205_376"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_0ad16ddd997a8e8061c662e6 appearing in its title or initial description, whose initial description contains the exact run id run_0ad16ddd997a8e8061c662e6.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_saffron_decision_0205_376"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_0ad16ddd997a8e8061c662e6 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 12610.21; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_saffron_decision_0205_376"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_0ad16ddd997a8e8061c662e6 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_saffron_decision_0205_376"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_0ad16ddd997a8e8061c662e6 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_clove_policy_1221_285"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/clove-policy whose title is exactly '[July GPU review] clove-policy — run_491a905699385b960e73609e'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_clove_policy_1221_285"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_491a905699385b960e73609e appearing in its title or initial description, whose initial description contains the exact run id run_491a905699385b960e73609e.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_clove_policy_1221_285"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_491a905699385b960e73609e appearing in its title or initial description, whose initial description contains the exact two-decimal cost 12514.55; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_clove_policy_1221_285"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_491a905699385b960e73609e appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_clove_policy_1221_285"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_491a905699385b960e73609e appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_pepper_drift_0604_514"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/pepper-drift whose title is exactly '[July GPU review] pepper-drift — run_60368d0a26e6612d8784e49e'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_pepper_drift_0604_514"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_60368d0a26e6612d8784e49e appearing in its title or initial description, whose initial description contains the exact run id run_60368d0a26e6612d8784e49e.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_pepper_drift_0604_514"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_60368d0a26e6612d8784e49e appearing in its title or initial description, whose initial description contains the exact two-decimal cost 11742.65; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_pepper_drift_0604_514"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_60368d0a26e6612d8784e49e appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_pepper_drift_0604_514"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_60368d0a26e6612d8784e49e appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_pepper_drift_0310_261"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/pepper-drift whose title is exactly '[July GPU review] pepper-drift — run_97dc0a2b143e2236b29d77e0'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_pepper_drift_0310_261"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_97dc0a2b143e2236b29d77e0 appearing in its title or initial description, whose initial description contains the exact run id run_97dc0a2b143e2236b29d77e0.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_pepper_drift_0310_261"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_97dc0a2b143e2236b29d77e0 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 11411.48; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_pepper_drift_0310_261"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_97dc0a2b143e2236b29d77e0 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_pepper_drift_0310_261"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_97dc0a2b143e2236b29d77e0 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_cumin_merchant_0319_604"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/cumin-merchant whose title is exactly '[July GPU review] cumin-merchant — run_b1487c6c88c85d541fd619fc'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_cumin_merchant_0319_604"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cumin-merchant, identifiable by the exact run id run_b1487c6c88c85d541fd619fc appearing in its title or initial description, whose initial description contains the exact run id run_b1487c6c88c85d541fd619fc.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_cumin_merchant_0319_604"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cumin-merchant, identifiable by the exact run id run_b1487c6c88c85d541fd619fc appearing in its title or initial description, whose initial description contains the exact two-decimal cost 11105.32; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_cumin_merchant_0319_604"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cumin-merchant, identifiable by the exact run id run_b1487c6c88c85d541fd619fc appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_cumin_merchant_0319_604"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/cumin-merchant, identifiable by the exact run id run_b1487c6c88c85d541fd619fc appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_clove_policy_1030_426"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/clove-policy whose title is exactly '[July GPU review] clove-policy — run_2406c0909b5b184e3d8a3734'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_clove_policy_1030_426"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_2406c0909b5b184e3d8a3734 appearing in its title or initial description, whose initial description contains the exact run id run_2406c0909b5b184e3d8a3734.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_clove_policy_1030_426"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_2406c0909b5b184e3d8a3734 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 10911.60; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_clove_policy_1030_426"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_2406c0909b5b184e3d8a3734 appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_clove_policy_1030_426"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_2406c0909b5b184e3d8a3734 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_lotus_identity_0301_836"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/lotus-identity whose title is exactly '[July GPU review] lotus-identity — run_fdc763d855757f7e0f88a0ca'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_lotus_identity_0301_836"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_fdc763d855757f7e0f88a0ca appearing in its title or initial description, whose initial description contains the exact run id run_fdc763d855757f7e0f88a0ca.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_lotus_identity_0301_836"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_fdc763d855757f7e0f88a0ca appearing in its title or initial description, whose initial description contains the exact two-decimal cost 10435.09; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_lotus_identity_0301_836"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_fdc763d855757f7e0f88a0ca appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_lotus_identity_0301_836"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/lotus-identity, identifiable by the exact run id run_fdc763d855757f7e0f88a0ca appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_marigold_fraud_0605_036"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/marigold-fraud whose title is exactly '[July GPU review] marigold-fraud — run_5607c5359a8faa87838fc28e'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_marigold_fraud_0605_036"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_5607c5359a8faa87838fc28e appearing in its title or initial description, whose initial description contains the exact run id run_5607c5359a8faa87838fc28e.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_marigold_fraud_0605_036"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_5607c5359a8faa87838fc28e appearing in its title or initial description, whose initial description contains the exact two-decimal cost 10099.43; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_marigold_fraud_0605_036"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_5607c5359a8faa87838fc28e appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_marigold_fraud_0605_036"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_5607c5359a8faa87838fc28e appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_zaffron_aml_1021_886"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/zaffron-aml whose title is exactly '[July GPU review] zaffron-aml — run_12c00bdfc41cc48e664b12ff'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_zaffron_aml_1021_886"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_12c00bdfc41cc48e664b12ff appearing in its title or initial description, whose initial description contains the exact run id run_12c00bdfc41cc48e664b12ff.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_zaffron_aml_1021_886"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_12c00bdfc41cc48e664b12ff appearing in its title or initial description, whose initial description contains the exact two-decimal cost 9995.83; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_zaffron_aml_1021_886"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_12c00bdfc41cc48e664b12ff appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_zaffron_aml_1021_886"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_12c00bdfc41cc48e664b12ff appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_turmeric_scam_0403_707"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/turmeric-scam whose title is exactly '[July GPU review] turmeric-scam — run_581dc818b358d0411dff59bd'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_turmeric_scam_0403_707"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_581dc818b358d0411dff59bd appearing in its title or initial description, whose initial description contains the exact run id run_581dc818b358d0411dff59bd.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_turmeric_scam_0403_707"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_581dc818b358d0411dff59bd appearing in its title or initial description, whose initial description contains the exact two-decimal cost 9425.15; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_turmeric_scam_0403_707"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_581dc818b358d0411dff59bd appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_turmeric_scam_0403_707"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_581dc818b358d0411dff59bd appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_saffron_decision_0301_062"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision whose title is exactly '[July GPU review] saffron-decision — run_a8fe0ab426577770a72be34b'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_saffron_decision_0301_062"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_a8fe0ab426577770a72be34b appearing in its title or initial description, whose initial description contains the exact run id run_a8fe0ab426577770a72be34b.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_saffron_decision_0301_062"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_a8fe0ab426577770a72be34b appearing in its title or initial description, whose initial description contains the exact two-decimal cost 9355.98; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_saffron_decision_0301_062"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_a8fe0ab426577770a72be34b appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_saffron_decision_0301_062"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/saffron-decision, identifiable by the exact run id run_a8fe0ab426577770a72be34b appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_turmeric_scam_0412_534"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/turmeric-scam whose title is exactly '[July GPU review] turmeric-scam — run_a32a520d1d3833fcd227279d'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_turmeric_scam_0412_534"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_a32a520d1d3833fcd227279d appearing in its title or initial description, whose initial description contains the exact run id run_a32a520d1d3833fcd227279d.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_turmeric_scam_0412_534"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_a32a520d1d3833fcd227279d appearing in its title or initial description, whose initial description contains the exact two-decimal cost 8867.01; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_turmeric_scam_0412_534"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_a32a520d1d3833fcd227279d appearing in its title or initial description, whose initial description contains the GPU type A100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_turmeric_scam_0412_534"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_a32a520d1d3833fcd227279d appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_turmeric_scam_1123_465"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/turmeric-scam whose title is exactly '[July GPU review] turmeric-scam — run_485784af931e4c956d3e5e1c'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_turmeric_scam_1123_465"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_485784af931e4c956d3e5e1c appearing in its title or initial description, whose initial description contains the exact run id run_485784af931e4c956d3e5e1c.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_turmeric_scam_1123_465"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_485784af931e4c956d3e5e1c appearing in its title or initial description, whose initial description contains the exact two-decimal cost 8747.97; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_turmeric_scam_1123_465"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_485784af931e4c956d3e5e1c appearing in its title or initial description, whose initial description contains the GPU type A100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_turmeric_scam_1123_465"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_485784af931e4c956d3e5e1c appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_marigold_fraud_0222_177"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/marigold-fraud whose title is exactly '[July GPU review] marigold-fraud — run_934435b93641af33544b91de'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_marigold_fraud_0222_177"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_934435b93641af33544b91de appearing in its title or initial description, whose initial description contains the exact run id run_934435b93641af33544b91de.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_marigold_fraud_0222_177"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_934435b93641af33544b91de appearing in its title or initial description, whose initial description contains the exact two-decimal cost 8694.68; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_marigold_fraud_0222_177"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_934435b93641af33544b91de appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_marigold_fraud_0222_177"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/marigold-fraud, identifiable by the exact run id run_934435b93641af33544b91de appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_turmeric_scam_0409_532"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/turmeric-scam whose title is exactly '[July GPU review] turmeric-scam — run_437a001d009cf06a9fa419c0'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_turmeric_scam_0409_532"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_437a001d009cf06a9fa419c0 appearing in its title or initial description, whose initial description contains the exact run id run_437a001d009cf06a9fa419c0.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_turmeric_scam_0409_532"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_437a001d009cf06a9fa419c0 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 8268.62; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_turmeric_scam_0409_532"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_437a001d009cf06a9fa419c0 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_turmeric_scam_0409_532"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/turmeric-scam, identifiable by the exact run id run_437a001d009cf06a9fa419c0 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_sesame_consortium_1013_884"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/sesame-consortium whose title is exactly '[July GPU review] sesame-consortium — run_90d93f52ab3b250a902f506e'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_sesame_consortium_1013_884"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/sesame-consortium, identifiable by the exact run id run_90d93f52ab3b250a902f506e appearing in its title or initial description, whose initial description contains the exact run id run_90d93f52ab3b250a902f506e.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_sesame_consortium_1013_884"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/sesame-consortium, identifiable by the exact run id run_90d93f52ab3b250a902f506e appearing in its title or initial description, whose initial description contains the exact two-decimal cost 8166.55; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_sesame_consortium_1013_884"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/sesame-consortium, identifiable by the exact run id run_90d93f52ab3b250a902f506e appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_sesame_consortium_1013_884"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/sesame-consortium, identifiable by the exact run id run_90d93f52ab3b250a902f506e appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_clove_policy_0901_236"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/clove-policy whose title is exactly '[July GPU review] clove-policy — run_180f76da9b5a9584e5bd19ef'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_clove_policy_0901_236"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_180f76da9b5a9584e5bd19ef appearing in its title or initial description, whose initial description contains the exact run id run_180f76da9b5a9584e5bd19ef.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_clove_policy_0901_236"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_180f76da9b5a9584e5bd19ef appearing in its title or initial description, whose initial description contains the exact two-decimal cost 7695.37; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_clove_policy_0901_236"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_180f76da9b5a9584e5bd19ef appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_clove_policy_0901_236"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/clove-policy, identifiable by the exact run id run_180f76da9b5a9584e5bd19ef appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_pepper_drift_1013_196"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/pepper-drift whose title is exactly '[July GPU review] pepper-drift — run_6146bd8a5e01c6f671851bef'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_pepper_drift_1013_196"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_6146bd8a5e01c6f671851bef appearing in its title or initial description, whose initial description contains the exact run id run_6146bd8a5e01c6f671851bef.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_pepper_drift_1013_196"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_6146bd8a5e01c6f671851bef appearing in its title or initial description, whose initial description contains the exact two-decimal cost 6980.48; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_pepper_drift_1013_196"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_6146bd8a5e01c6f671851bef appearing in its title or initial description, whose initial description contains the GPU type B200.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_pepper_drift_1013_196"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/pepper-drift, identifiable by the exact run id run_6146bd8a5e01c6f671851bef appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_title_zaffron_aml_0425_994"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/zaffron-aml whose title is exactly '[July GPU review] zaffron-aml — run_664d86529d15fbadf9716b68'.'''
+type = "binary"
+critical = false
+weight = 0.010
+
+[[criterion]]
+name = "hf_runid_zaffron_aml_0425_994"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_664d86529d15fbadf9716b68 appearing in its title or initial description, whose initial description contains the exact run id run_664d86529d15fbadf9716b68.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_cost_zaffron_aml_0425_994"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_664d86529d15fbadf9716b68 appearing in its title or initial description, whose initial description contains the exact two-decimal cost 6647.67; rounded or truncated alternatives do not pass.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_gpu_zaffron_aml_0425_994"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_664d86529d15fbadf9716b68 appearing in its title or initial description, whose initial description contains the GPU type H100-80GB.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_disposition_zaffron_aml_0425_994"
+description = '''The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows a new discussion on repo saffron-ledger-ai/zaffron-aml, identifiable by the exact run id run_664d86529d15fbadf9716b68 appearing in its title or initial description, whose initial description contains the sentence 'No later finished replacement and no active approved exception were found.'.'''
+type = "binary"
+critical = false
+weight = 0.006
+
+[[criterion]]
+name = "hf_summary_title"
+description = '''The huggingface state diff shows exactly one new discussion titled 'GPU spend incident review — 2026-07-31' on saffron-ledger-ai/saffron-decision.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "hf_summary_candidate_counts"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision with exact title 'GPU spend incident review — 2026-07-31' whose initial description contains exact lines 'Candidates: 35' and 'Incidents filed: 24'.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "hf_summary_exclusion_counts"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision with exact title 'GPU spend incident review — 2026-07-31' whose initial description contains exact lines 'Excluded — non-production: 3', 'Excluded — replacement: 4', and 'Excluded — approved exception: 4'.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "hf_summary_total_spend"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision with exact title 'GPU spend incident review — 2026-07-31' whose initial description contains exact line 'Total incident spend: $296,638.05'.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "hf_summary_run_ids"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision with exact title 'GPU spend incident review — 2026-07-31' whose initial description contains exact line 'Run IDs: run_252668ba2e05fc954f93c7e0, run_c7d6682943b0144a6e4a0854, run_72576a1231c87eb61f44fe26, run_bb9e3efbfff08c7f3076c4d9, run_7f485c1b64031fc0dbc054bf, run_0ad16ddd997a8e8061c662e6, run_491a905699385b960e73609e, run_60368d0a26e6612d8784e49e, run_97dc0a2b143e2236b29d77e0, run_b1487c6c88c85d541fd619fc, run_2406c0909b5b184e3d8a3734, run_fdc763d855757f7e0f88a0ca, run_5607c5359a8faa87838fc28e, run_12c00bdfc41cc48e664b12ff, run_581dc818b358d0411dff59bd, run_a8fe0ab426577770a72be34b, run_a32a520d1d3833fcd227279d, run_485784af931e4c956d3e5e1c, run_934435b93641af33544b91de, run_437a001d009cf06a9fa419c0, run_90d93f52ab3b250a902f506e, run_180f76da9b5a9584e5bd19ef, run_6146bd8a5e01c6f671851bef, run_664d86529d15fbadf9716b68' with every id once and in this order.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "hf_summary_reconciliation"
+description = '''The huggingface state diff shows a new discussion on repo saffron-ledger-ai/saffron-decision with exact title 'GPU spend incident review — 2026-07-31' whose initial description contains all seven required reconciliation lines and does not assert a different candidate, exclusion, incident, spend, or run-id total.'''
+type = "binary"
+critical = false
+weight = 0.022
+
+[[criterion]]
+name = "scope_guard"
+description = '''The W&B and Linear state diffs show no substantive user-authored changes. The Hugging Face state diff shows exactly the 24 required incident discussions and the one required summary discussion, each with one initial description comment, and no other created, modified, closed, or deleted discussion/comment. Ignore ordinary session, visit, notification, audit metadata cascades, and W&B personal Workspace rows automatically created when a project is first opened.'''
+type = "binary"
+critical = false
+weight = 0.052

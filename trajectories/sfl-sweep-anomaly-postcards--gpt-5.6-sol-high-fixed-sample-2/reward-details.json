@@ -1,0 +1,432 @@
+{
+  "reward": {
+    "score": 1.0,
+    "criteria": [
+      {
+        "name": "hf_disc_title_cardamom_typology_0420_106",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/cardamom-typology whose title is exactly 'Training anomaly: cardamom-typology-0420-106 (run_252668ba2e05fc954f93c7e0)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: cardamom-typology-0420-106 (run_252668ba2e05fc954f93c7e0)'."
+      },
+      {
+        "name": "hf_disc_runid_cardamom_typology_0420_106",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/cardamom-typology for the cardamom-typology-0420-106 disclosure (identifiable by its title beginning 'Training anomaly: cardamom-typology-0420-106') contains the run id run_252668ba2e05fc954f93c7e0.",
+        "reasoning": "The added initial comment for that discussion contains run_252668ba2e05fc954f93c7e0."
+      },
+      {
+        "name": "hf_disc_cost_cardamom_typology_0420_106",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/cardamom-typology for the cardamom-typology-0420-106 disclosure (identifiable by its title beginning 'Training anomaly: cardamom-typology-0420-106') contains the value 43892.63 (formatting/precision of display may vary; $43,892.63 and 43892.63 pass, 43892.6 fails).",
+        "reasoning": "The added initial comment contains cost $43892.63."
+      },
+      {
+        "name": "hf_disc_gpu_cardamom_typology_0420_106",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/cardamom-typology for the cardamom-typology-0420-106 disclosure (identifiable by its title beginning 'Training anomaly: cardamom-typology-0420-106') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_marigold_fraud_0924_279",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/marigold-fraud whose title is exactly 'Training anomaly: marigold-fraud-0924-279 (run_a238f09ff64ceebc4ab66166)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: marigold-fraud-0924-279 (run_a238f09ff64ceebc4ab66166)'."
+      },
+      {
+        "name": "hf_disc_runid_marigold_fraud_0924_279",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/marigold-fraud for the marigold-fraud-0924-279 disclosure (identifiable by its title beginning 'Training anomaly: marigold-fraud-0924-279') contains the run id run_a238f09ff64ceebc4ab66166.",
+        "reasoning": "The added initial comment for that discussion contains run_a238f09ff64ceebc4ab66166."
+      },
+      {
+        "name": "hf_disc_cost_marigold_fraud_0924_279",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/marigold-fraud for the marigold-fraud-0924-279 disclosure (identifiable by its title beginning 'Training anomaly: marigold-fraud-0924-279') contains the value 26488.35 (formatting/precision of display may vary; $26,488.35 and 26488.35 pass, 26488.4 fails).",
+        "reasoning": "The added initial comment contains cost $26488.35."
+      },
+      {
+        "name": "hf_disc_gpu_marigold_fraud_0924_279",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/marigold-fraud for the marigold-fraud-0924-279 disclosure (identifiable by its title beginning 'Training anomaly: marigold-fraud-0924-279') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_lotus_identity_0310_841",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/lotus-identity whose title is exactly 'Training anomaly: lotus-identity-0310-841 (run_c7d6682943b0144a6e4a0854)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0310-841 (run_c7d6682943b0144a6e4a0854)'."
+      },
+      {
+        "name": "hf_disc_runid_lotus_identity_0310_841",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0310-841 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0310-841') contains the run id run_c7d6682943b0144a6e4a0854.",
+        "reasoning": "The added initial comment for that discussion contains run_c7d6682943b0144a6e4a0854."
+      },
+      {
+        "name": "hf_disc_cost_lotus_identity_0310_841",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0310-841 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0310-841') contains the value 20921.77 (formatting/precision of display may vary; $20,921.77 and 20921.77 pass, 20921.8 fails).",
+        "reasoning": "The added initial comment contains cost $20921.77."
+      },
+      {
+        "name": "hf_disc_gpu_lotus_identity_0310_841",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0310-841 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0310-841') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_lotus_identity_0923_745",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/lotus-identity whose title is exactly 'Training anomaly: lotus-identity-0923-745 (run_a0cc87076f2a2b63d87fc8bc)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0923-745 (run_a0cc87076f2a2b63d87fc8bc)'."
+      },
+      {
+        "name": "hf_disc_runid_lotus_identity_0923_745",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0923-745 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0923-745') contains the run id run_a0cc87076f2a2b63d87fc8bc.",
+        "reasoning": "The added initial comment for that discussion contains run_a0cc87076f2a2b63d87fc8bc."
+      },
+      {
+        "name": "hf_disc_cost_lotus_identity_0923_745",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0923-745 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0923-745') contains the value 19737.16 (formatting/precision of display may vary; $19,737.16 and 19737.16 pass, 19737.2 fails).",
+        "reasoning": "The added initial comment contains cost $19737.16."
+      },
+      {
+        "name": "hf_disc_gpu_lotus_identity_0923_745",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0923-745 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0923-745') contains the GPU type B200.",
+        "reasoning": "The added initial comment contains GPU type B200."
+      },
+      {
+        "name": "hf_disc_title_clove_policy_0601_540",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/clove-policy whose title is exactly 'Training anomaly: clove-policy-0601-540 (run_72576a1231c87eb61f44fe26)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-0601-540 (run_72576a1231c87eb61f44fe26)'."
+      },
+      {
+        "name": "hf_disc_runid_clove_policy_0601_540",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0601-540 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0601-540') contains the run id run_72576a1231c87eb61f44fe26.",
+        "reasoning": "The added initial comment for that discussion contains run_72576a1231c87eb61f44fe26."
+      },
+      {
+        "name": "hf_disc_cost_clove_policy_0601_540",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0601-540 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0601-540') contains the value 19300.24 (formatting/precision of display may vary; $19,300.24 and 19300.24 pass, 19300.2 fails).",
+        "reasoning": "The added initial comment contains cost $19300.24."
+      },
+      {
+        "name": "hf_disc_gpu_clove_policy_0601_540",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0601-540 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0601-540') contains the GPU type B200.",
+        "reasoning": "The added initial comment contains GPU type B200."
+      },
+      {
+        "name": "hf_disc_title_clove_policy_0726_014",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/clove-policy whose title is exactly 'Training anomaly: clove-policy-0726-014 (run_2b58eca86784bc6d13205df6)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-0726-014 (run_2b58eca86784bc6d13205df6)'."
+      },
+      {
+        "name": "hf_disc_runid_clove_policy_0726_014",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0726-014 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0726-014') contains the run id run_2b58eca86784bc6d13205df6.",
+        "reasoning": "The added initial comment for that discussion contains run_2b58eca86784bc6d13205df6."
+      },
+      {
+        "name": "hf_disc_cost_clove_policy_0726_014",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0726-014 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0726-014') contains the value 16290.2 (formatting/precision of display may vary; $16,290.20 and 16290.2 pass, 16290.3 fails).",
+        "reasoning": "The added initial comment contains cost $16290.2."
+      },
+      {
+        "name": "hf_disc_gpu_clove_policy_0726_014",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-0726-014 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-0726-014') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_pepper_drift_0212_250",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/pepper-drift whose title is exactly 'Training anomaly: pepper-drift-0212-250 (run_bb9e3efbfff08c7f3076c4d9)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: pepper-drift-0212-250 (run_bb9e3efbfff08c7f3076c4d9)'."
+      },
+      {
+        "name": "hf_disc_runid_pepper_drift_0212_250",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0212-250 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0212-250') contains the run id run_bb9e3efbfff08c7f3076c4d9.",
+        "reasoning": "The added initial comment for that discussion contains run_bb9e3efbfff08c7f3076c4d9."
+      },
+      {
+        "name": "hf_disc_cost_pepper_drift_0212_250",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0212-250 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0212-250') contains the value 15809.7 (formatting/precision of display may vary; $15,809.70 and 15809.7 pass, 15809.8 fails).",
+        "reasoning": "The added initial comment contains cost $15809.7."
+      },
+      {
+        "name": "hf_disc_gpu_pepper_drift_0212_250",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0212-250 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0212-250') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_pepper_drift_0103_236",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/pepper-drift whose title is exactly 'Training anomaly: pepper-drift-0103-236 (run_4f898b1367fb0ba4595ada3b)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: pepper-drift-0103-236 (run_4f898b1367fb0ba4595ada3b)'."
+      },
+      {
+        "name": "hf_disc_runid_pepper_drift_0103_236",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0103-236 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0103-236') contains the run id run_4f898b1367fb0ba4595ada3b.",
+        "reasoning": "The added initial comment for that discussion contains run_4f898b1367fb0ba4595ada3b."
+      },
+      {
+        "name": "hf_disc_cost_pepper_drift_0103_236",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0103-236 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0103-236') contains the value 15326.27 (formatting/precision of display may vary; $15,326.27 and 15326.27 pass, 15326.3 fails).",
+        "reasoning": "The added initial comment contains cost $15326.27."
+      },
+      {
+        "name": "hf_disc_gpu_pepper_drift_0103_236",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/pepper-drift for the pepper-drift-0103-236 disclosure (identifiable by its title beginning 'Training anomaly: pepper-drift-0103-236') contains the GPU type A100-80GB.",
+        "reasoning": "The added initial comment contains GPU type A100-80GB."
+      },
+      {
+        "name": "hf_disc_title_turmeric_scam_1125_644",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/turmeric-scam whose title is exactly 'Training anomaly: turmeric-scam-1125-644 (run_4515dd0f42cee58ced996d10)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: turmeric-scam-1125-644 (run_4515dd0f42cee58ced996d10)'."
+      },
+      {
+        "name": "hf_disc_runid_turmeric_scam_1125_644",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/turmeric-scam for the turmeric-scam-1125-644 disclosure (identifiable by its title beginning 'Training anomaly: turmeric-scam-1125-644') contains the run id run_4515dd0f42cee58ced996d10.",
+        "reasoning": "The added initial comment for that discussion contains run_4515dd0f42cee58ced996d10."
+      },
+      {
+        "name": "hf_disc_cost_turmeric_scam_1125_644",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/turmeric-scam for the turmeric-scam-1125-644 disclosure (identifiable by its title beginning 'Training anomaly: turmeric-scam-1125-644') contains the value 15114.19 (formatting/precision of display may vary; $15,114.19 and 15114.19 pass, 15114.2 fails).",
+        "reasoning": "The added initial comment contains cost $15114.19."
+      },
+      {
+        "name": "hf_disc_gpu_turmeric_scam_1125_644",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/turmeric-scam for the turmeric-scam-1125-644 disclosure (identifiable by its title beginning 'Training anomaly: turmeric-scam-1125-644') contains the GPU type B200.",
+        "reasoning": "The added initial comment contains GPU type B200."
+      },
+      {
+        "name": "hf_disc_title_lotus_identity_0724_713",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/lotus-identity whose title is exactly 'Training anomaly: lotus-identity-0724-713 (run_7f485c1b64031fc0dbc054bf)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0724-713 (run_7f485c1b64031fc0dbc054bf)'."
+      },
+      {
+        "name": "hf_disc_runid_lotus_identity_0724_713",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0724-713 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0724-713') contains the run id run_7f485c1b64031fc0dbc054bf.",
+        "reasoning": "The added initial comment for that discussion contains run_7f485c1b64031fc0dbc054bf."
+      },
+      {
+        "name": "hf_disc_cost_lotus_identity_0724_713",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0724-713 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0724-713') contains the value 13038.07 (formatting/precision of display may vary; $13,038.07 and 13038.07 pass, 13038.1 fails).",
+        "reasoning": "The added initial comment contains cost $13038.07."
+      },
+      {
+        "name": "hf_disc_gpu_lotus_identity_0724_713",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/lotus-identity for the lotus-identity-0724-713 disclosure (identifiable by its title beginning 'Training anomaly: lotus-identity-0724-713') contains the GPU type B200.",
+        "reasoning": "The added initial comment contains GPU type B200."
+      },
+      {
+        "name": "hf_disc_title_saffron_decision_0205_376",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/saffron-decision whose title is exactly 'Training anomaly: saffron-decision-0205-376 (run_0ad16ddd997a8e8061c662e6)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: saffron-decision-0205-376 (run_0ad16ddd997a8e8061c662e6)'."
+      },
+      {
+        "name": "hf_disc_runid_saffron_decision_0205_376",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/saffron-decision for the saffron-decision-0205-376 disclosure (identifiable by its title beginning 'Training anomaly: saffron-decision-0205-376') contains the run id run_0ad16ddd997a8e8061c662e6.",
+        "reasoning": "The added initial comment for that discussion contains run_0ad16ddd997a8e8061c662e6."
+      },
+      {
+        "name": "hf_disc_cost_saffron_decision_0205_376",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/saffron-decision for the saffron-decision-0205-376 disclosure (identifiable by its title beginning 'Training anomaly: saffron-decision-0205-376') contains the value 12610.21 (formatting/precision of display may vary; $12,610.21 and 12610.21 pass, 12610.2 fails).",
+        "reasoning": "The added initial comment contains cost $12610.21."
+      },
+      {
+        "name": "hf_disc_gpu_saffron_decision_0205_376",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/saffron-decision for the saffron-decision-0205-376 disclosure (identifiable by its title beginning 'Training anomaly: saffron-decision-0205-376') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "hf_disc_title_clove_policy_1221_285",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the discussions table gains a new row on repo saffron-ledger-ai/clove-policy whose title is exactly 'Training anomaly: clove-policy-1221-285 (run_491a905699385b960e73609e)'.",
+        "reasoning": "Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-1221-285 (run_491a905699385b960e73609e)'."
+      },
+      {
+        "name": "hf_disc_runid_clove_policy_1221_285",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-1221-285 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-1221-285') contains the run id run_491a905699385b960e73609e.",
+        "reasoning": "The added initial comment for that discussion contains run_491a905699385b960e73609e."
+      },
+      {
+        "name": "hf_disc_cost_clove_policy_1221_285",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-1221-285 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-1221-285') contains the value 12514.55 (formatting/precision of display may vary; $12,514.55 and 12514.55 pass, 12514.6 fails).",
+        "reasoning": "The added initial comment contains cost $12514.55."
+      },
+      {
+        "name": "hf_disc_gpu_clove_policy_1221_285",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0181,
+        "description": "The huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json shows the initial description comment of the new discussion on saffron-ledger-ai/clove-policy for the clove-policy-1221-285 disclosure (identifiable by its title beginning 'Training anomaly: clove-policy-1221-285') contains the GPU type H100-80GB.",
+        "reasoning": "The added initial comment contains GPU type H100-80GB."
+      },
+      {
+        "name": "no_unrequested_anomaly_postcard_writes",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0484,
+        "description": "GUARD: scored as a single gestalt no-change condition. The wandb state diff at /tmp/grading/apps/wandb/state_diff.json and the huggingface state diff at /tmp/grading/apps/huggingface/state_diff.json show no rows added, modified, or removed beyond the twelve new Hugging Face discussions (and their initial description comments) required by the graded criteria above and the expected app-side cascade effects of creating them or of ordinary navigation. Exempt cascade side effects (do not fail the guard): W&B may add a workspaces row on login (session bootstrap, not agent action); Notion block-appends may touch neighboring blocks' position/updated_at (renumbering) if Notion is opened; page_visits rows may appear in Notion (and equivalent view-tracking tables elsewhere) on every page the agent merely opened to read; Together request_logs may gain telemetry rows and api_keys.last_used_at may refresh purely from UI navigation/login; standard auto-managed columns (updated_at, created_at, audit/activity/notification rows) may refresh as a cascade of the graded write itself. In particular: no wandb row of any kind is added, modified, or removed; Hugging Face gains no discussions on any -evals dataset repository; no second discussion is created for any cohort run beyond the single graded postcard. PASSES on a pristine no-op rollout.",
+        "reasoning": "W&B diff has zero changes. Hugging Face diff has exactly 12 added discussions and 12 added initial comments; the only other additions are notification rows, which are exempt cascade effects."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.5",
+      "timeout": 8400,
+      "cwd": null,
+      "isolated": false,
+      "atif_trajectory": "/logs/agent/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": []
+    },
+    "judge_output": "{\"hf_disc_title_cardamom_typology_0420_106\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: cardamom-typology-0420-106 (run_252668ba2e05fc954f93c7e0)'.\"},\"hf_disc_runid_cardamom_typology_0420_106\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_252668ba2e05fc954f93c7e0.\"},\"hf_disc_cost_cardamom_typology_0420_106\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $43892.63.\"},\"hf_disc_gpu_cardamom_typology_0420_106\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_marigold_fraud_0924_279\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: marigold-fraud-0924-279 (run_a238f09ff64ceebc4ab66166)'.\"},\"hf_disc_runid_marigold_fraud_0924_279\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_a238f09ff64ceebc4ab66166.\"},\"hf_disc_cost_marigold_fraud_0924_279\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $26488.35.\"},\"hf_disc_gpu_marigold_fraud_0924_279\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_lotus_identity_0310_841\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0310-841 (run_c7d6682943b0144a6e4a0854)'.\"},\"hf_disc_runid_lotus_identity_0310_841\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_c7d6682943b0144a6e4a0854.\"},\"hf_disc_cost_lotus_identity_0310_841\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $20921.77.\"},\"hf_disc_gpu_lotus_identity_0310_841\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_lotus_identity_0923_745\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0923-745 (run_a0cc87076f2a2b63d87fc8bc)'.\"},\"hf_disc_runid_lotus_identity_0923_745\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_a0cc87076f2a2b63d87fc8bc.\"},\"hf_disc_cost_lotus_identity_0923_745\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $19737.16.\"},\"hf_disc_gpu_lotus_identity_0923_745\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type B200.\"},\"hf_disc_title_clove_policy_0601_540\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-0601-540 (run_72576a1231c87eb61f44fe26)'.\"},\"hf_disc_runid_clove_policy_0601_540\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_72576a1231c87eb61f44fe26.\"},\"hf_disc_cost_clove_policy_0601_540\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $19300.24.\"},\"hf_disc_gpu_clove_policy_0601_540\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type B200.\"},\"hf_disc_title_clove_policy_0726_014\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-0726-014 (run_2b58eca86784bc6d13205df6)'.\"},\"hf_disc_runid_clove_policy_0726_014\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_2b58eca86784bc6d13205df6.\"},\"hf_disc_cost_clove_policy_0726_014\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $16290.2.\"},\"hf_disc_gpu_clove_policy_0726_014\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_pepper_drift_0212_250\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: pepper-drift-0212-250 (run_bb9e3efbfff08c7f3076c4d9)'.\"},\"hf_disc_runid_pepper_drift_0212_250\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_bb9e3efbfff08c7f3076c4d9.\"},\"hf_disc_cost_pepper_drift_0212_250\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $15809.7.\"},\"hf_disc_gpu_pepper_drift_0212_250\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_pepper_drift_0103_236\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: pepper-drift-0103-236 (run_4f898b1367fb0ba4595ada3b)'.\"},\"hf_disc_runid_pepper_drift_0103_236\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_4f898b1367fb0ba4595ada3b.\"},\"hf_disc_cost_pepper_drift_0103_236\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $15326.27.\"},\"hf_disc_gpu_pepper_drift_0103_236\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type A100-80GB.\"},\"hf_disc_title_turmeric_scam_1125_644\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: turmeric-scam-1125-644 (run_4515dd0f42cee58ced996d10)'.\"},\"hf_disc_runid_turmeric_scam_1125_644\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_4515dd0f42cee58ced996d10.\"},\"hf_disc_cost_turmeric_scam_1125_644\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $15114.19.\"},\"hf_disc_gpu_turmeric_scam_1125_644\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type B200.\"},\"hf_disc_title_lotus_identity_0724_713\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: lotus-identity-0724-713 (run_7f485c1b64031fc0dbc054bf)'.\"},\"hf_disc_runid_lotus_identity_0724_713\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_7f485c1b64031fc0dbc054bf.\"},\"hf_disc_cost_lotus_identity_0724_713\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $13038.07.\"},\"hf_disc_gpu_lotus_identity_0724_713\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type B200.\"},\"hf_disc_title_saffron_decision_0205_376\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: saffron-decision-0205-376 (run_0ad16ddd997a8e8061c662e6)'.\"},\"hf_disc_runid_saffron_decision_0205_376\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_0ad16ddd997a8e8061c662e6.\"},\"hf_disc_cost_saffron_decision_0205_376\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $12610.21.\"},\"hf_disc_gpu_saffron_decision_0205_376\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"hf_disc_title_clove_policy_1221_285\":{\"score\":\"yes\",\"reasoning\":\"Hugging Face diff shows an added discussion titled exactly 'Training anomaly: clove-policy-1221-285 (run_491a905699385b960e73609e)'.\"},\"hf_disc_runid_clove_policy_1221_285\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment for that discussion contains run_491a905699385b960e73609e.\"},\"hf_disc_cost_clove_policy_1221_285\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains cost $12514.55.\"},\"hf_disc_gpu_clove_policy_1221_285\":{\"score\":\"yes\",\"reasoning\":\"The added initial comment contains GPU type H100-80GB.\"},\"no_unrequested_anomaly_postcard_writes\":{\"score\":\"yes\",\"reasoning\":\"W&B diff has zero changes. Hugging Face diff has exactly 12 added discussions and 12 added initial comments; the only other additions are notification rows, which are exempt cascade effects.\"}}",
+    "usage": {
+      "input_tokens": 210827,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 175104,
+      "output_tokens": 6290,
+      "reasoning_output_tokens": 765,
+      "total_tokens": 217117,
+      "models": {
+        "gpt-5.5": {
+          "input_tokens": 210827,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 175104,
+          "output_tokens": 6290,
+          "reasoning_output_tokens": 765,
+          "total_tokens": 217117
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.54d3a2dc081442b3b6bc26a6a0c57ed8.jsonl"
+    ]
+  }
+}

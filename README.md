@@ -1,7 +1,8 @@
-# MLOps sweep anomaly postcards — rollout viewer
+# MLOps long-horizon tasks — trajectory evidence
 
-Static trajectory evidence viewer for the killed-run anomaly postcards task.
+Static trajectory evidence viewer for the killed-run anomaly postcards and GPU
+cost incident review tasks.
 
-The original single-file export embedded every screenshot as base64 data. This
-hosted form externalizes those images into content-addressed static assets so
-the site stays within GitHub's per-file limits without changing the viewer.
+The hosted form externalizes screenshots into content-addressed static assets,
+keeping the Render site and Git repository efficient without changing the
+viewer experience.

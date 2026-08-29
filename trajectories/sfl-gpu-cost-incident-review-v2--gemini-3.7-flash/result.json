@@ -1,0 +1,120 @@
+{
+    "id": "c768a24b-8814-4fc4-ab8c-d16b8f4712bd",
+    "task_name": "collinear-ai/sfl-gpu-cost-incident-review-v2",
+    "trial_name": "sfl-gpu-cost-incident-review-v2__5DyVjwa",
+    "trial_uri": "file:///work/runs/gpu-cost-incident-review-v2/2026-08-27__23-23-20/sfl-gpu-cost-incident-review-v2__5DyVjwa",
+    "task_id": {
+        "path": "tasks/sfl-gpu-cost-incident-review-v2"
+    },
+    "source": null,
+    "task_checksum": "b5ab86135a27e5e7d975ca694178e7184e93dfba502878039d2bbcd8d0c2f359",
+    "config": {
+        "task": {
+            "path": "tasks/sfl-gpu-cost-incident-review-v2",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "sfl-gpu-cost-incident-review-v2__5DyVjwa",
+        "trials_dir": "runs/gpu-cost-incident-review-v2/2026-08-27__23-23-20",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": null,
+            "import_path": "adapters.gemini_computer_use:GeminiComputerUseAgent",
+            "model_name": "gemini/gemini-3.7-flash",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [
+            "shared/sky_linux/agent-instructions.md"
+        ],
+        "job_id": "ad879485-989b-4829-b5fa-158750ea064d"
+    },
+    "agent_info": {
+        "name": "gemini-cua",
+        "version": "1.0.0",
+        "model_info": {
+            "name": "gemini-3.7-flash",
+            "provider": "gemini"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 7824832,
+        "n_cache_tokens": 5672466,
+        "n_output_tokens": 10402,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": {
+            "n_episodes": 367,
+            "api_request_times_msec": [],
+            "early_termination_reason": "task_complete",
+            "compaction_count": 0
+        }
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-08-27T23:23:25.763836Z",
+    "finished_at": "2026-08-27T23:59:49.602659Z",
+    "environment_setup": {
+        "started_at": "2026-08-27T23:23:26.020858Z",
+        "finished_at": "2026-08-27T23:23:53.560512Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-08-27T23:24:14.100800Z",
+        "finished_at": "2026-08-27T23:24:15.119765Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-08-27T23:24:15.119878Z",
+        "finished_at": "2026-08-27T23:57:44.604010Z"
+    },
+    "verifier": {
+        "started_at": "2026-08-27T23:57:54.755239Z",
+        "finished_at": "2026-08-27T23:59:36.085037Z"
+    },
+    "step_results": null
+}
